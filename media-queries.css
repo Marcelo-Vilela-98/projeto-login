@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*Telas Grandes */
+
+@media  screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-color: linear-gradient(to right, red, green, blue);
+    }
+    
+}

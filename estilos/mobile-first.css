@@ -31,7 +31,7 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
+    overflow: hidden; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
 }
 
@@ -40,5 +40,10 @@ section#login>div#imagem {
     background-size: cover;
     height: 200px;
     background-position: left bottom;
+    display: block;
+}
 
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
