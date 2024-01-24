@@ -8,17 +8,10 @@
         background-image: linear-gradient(to right, #49a09d, #5f2c82);
     }
 
-    main {
-        height: 100vh;
-        width: 100vw;
-        position: relative;
-    }
-
     section#login {
-        width: 554px;
+        width: 700px;
         float: right;
-        position: absolute;
-        display: block;
+
     }
 }
 
@@ -31,6 +24,4 @@
     section#login {
         width: 992px;
     }
-
-   
 }
